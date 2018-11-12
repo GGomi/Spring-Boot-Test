@@ -12,6 +12,7 @@ package com.essri.springweb.web.posts;
  * 꼭꼭 Entity 클래스와 Controller에서 쓸 DTO는 분리해서 사용하시길 바랍니다.
  */
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -30,5 +31,12 @@ public class PostsSaveRequestDto {
                 .content(content)
                 .author(author)
                 .build();
+    }
+
+    @Builder
+    public PostsSaveRequestDto(String title, String content, String author) {
+        this.title = title;
+        this.content = content;
+        this.author = author;
     }
 }
