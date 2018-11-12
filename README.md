@@ -1,12 +1,10 @@
 # Spring Boot Test
-![spring Boot Version](https://img.shields.io/badge/SpringBoot-2.0.6%20RELEASE-green.svg)
+![spring Boot Version](https://img.shields.io/badge/SpringBoot-1.5.10%20RELEASE-green.svg)
 ![jdk version](https://img.shields.io/badge/jdk-8-red.svg)
-![branch version](https://img.shields.io/badge/branch-version_1.0-yellow.svg)
 - Dependencies
     - lombok
     - JPA
     - H2
-
 ---
 ## JPA
 - **JPA Annotation**

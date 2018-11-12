@@ -21,6 +21,6 @@ public class WebControllerTest {
         String body = this.rstTemplate.getForObject("/",String.class);
 
         //then
-        Assertions.assertThat(body).contains("<h1>");
+        Assertions.assertThat(body).contains("스프링부트 게시판");
     }
 }

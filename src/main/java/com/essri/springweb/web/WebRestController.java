@@ -1,6 +1,5 @@
 package com.essri.springweb.web;
 
-import com.essri.springweb.web.posts.PostsRepository;
 import com.essri.springweb.web.posts.PostsSaveRequestDto;
 import com.essri.springweb.webservice.PostsService;
 import lombok.AllArgsConstructor;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @AllArgsConstructor
 public class WebRestController {
-    private PostsRepository postsRepository;
     private PostsService postsService;
 
     @GetMapping("/hello")

@@ -48,12 +48,14 @@ public class PostsRepositoryTest {
     @Test
     public void BaseTimeEntity_등록() {
         LocalDateTime now = LocalDateTime.now();
+
         postsRepository.save(Posts.builder()
                 .title("테스트게시글")
                 .content("테스트 본문")
                 .author("dhkdn4042@gmail.com")
                 .build()
         );
+
         //when
         List<Posts> postsList = postsRepository.findAll();
 
