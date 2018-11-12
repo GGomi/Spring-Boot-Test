@@ -21,6 +21,8 @@
         - 테이블의 컬럼을 나타내면, 굳이 선언하지 않더라도 해당 클래스의 필드는 모두 컬럼이 된다.
         - 기본값 외에 추가로 변경이 필요한 옵션이 있을경우 사용.
         - 문자열의 경우 기본 사이즈를 늘리고 싶거나 타입을 변경할 때 사용.
+    - **@GetMapping("/")**
+        - @RequestMapping(value="/", method="RequestMethod.GET")과 동일함.
 - **JPA Auditing**
     - **@MappedSuperclass**
         - JPA Entity 클래스들이 BaseTimeEntity을 상속할 경울 필드들도 컬럼으로 인식하도록함.
