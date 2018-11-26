@@ -1,7 +1,6 @@
 package com.essri.springweb.web.posts;
 
 import com.essri.springweb.web.BaseTimeEntity;
-import com.fasterxml.jackson.databind.ser.Serializers;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
